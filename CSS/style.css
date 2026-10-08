@@ -105,6 +105,7 @@ nav a{
         ), 
         url("../IMG/hero3.webp");
 
+          /* */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -163,11 +164,67 @@ nav a{
                         }
         /* ----------------    fim BOTAO     ----------------*/
 
-
-
-
-
-
     /* ----------------   fim HERO   -----------------*/
+
+
+    /* ----------------   sessao diferenciais   -----------------*/
+    .diferenciais {
+        display: flex;
+        justify-content: space-around;
+        padding: 15px 100px;
+        background-color: #0b0b0b;
+        border-top: 1px solid #292929;
+    }     
+        .diferencial {
+            display: flex;
+         /*   justify-content: space-around;*/
+            width: 22%;
+            text-align: center;
+            align-items: center;
+            padding: 10px;
+            gap: 10px;
+
+            
+
+            /*precisa colocar a linha no meio das divs essa propriedade ainda nao esta funcionando*/
+            border-left: #e5f3d2;
+        }
+            .diferencial .icone {
+                display: block;
+                color: #d8b783;
+                font-size: 28px;
+                margin-bottom: 15px;
+                transition: 0.3s;
+            }  
+            .diferencial h3 {
+                color: #f5f0e8;
+                font-size: 10px;
+                margin-bottom: 10px;
+            }          
+
+
+    /* ----------------   fim diferenciais   -----------------*/
+
+
+
+    /* ----------------     sessao cortes    -----------------*/
+    .cortes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px auto;
+        background-color: #0b0b0b;
+        border-top: 1px solid #292929;
+    }     
+        .cortes_cards-img {
+            display: block;
+            width: 200px;
+            height: auto;
+            object-fit: cover;
+    
+        }
+
+
+    /* ----------------      fim cortes      -----------------*/
 
 /* -------------------------------------------- FIM MAIN -----------------------------------------*/
