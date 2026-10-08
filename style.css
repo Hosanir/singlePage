@@ -1,0 +1,36 @@
+css
+
+:root {
+    --prim: #091013;
+    --sec: #ac0808;
+    --ter: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+section{
+    background-color: #091013;    
+}
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #edf0f2;
+    text-decoration: none;
+     
+}
+.bar{
+    text-decoration: none;
+    color: #edf0f2;
+    justify-content: space-between; 
+}
+
+
