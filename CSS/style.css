@@ -311,9 +311,26 @@ nav a{
             display: flex;
             justify-content: space-between;
             gap: 5px;
+            padding: 35px;
         }
 
             /*----CAIXA 1------*/
+            .info{
+
+            }
+               
+                .material-symbols-outlined {
+                color: #ECB576;
+
+                }
+
+
+                .info-titulo{
+                    display: flex;
+                    justify-content: left;
+                    color: #ECB576;
+
+                }
             /*----CAIXA 2------*/ 
             /*----CAIXA 3------*/
 
