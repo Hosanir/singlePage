@@ -325,12 +325,35 @@ nav a{
                 }
 
 
+                .info_icon{
+                    display: flex;
+                }
+                .info_icon span{
+                    font-size: -webkit-xxx-large;
+                }
                 .info-titulo{
                     display: flex;
+                    flex-direction: column;
                     justify-content: left;
                     color: #ECB576;
-
+                    gap: 5px;
                 }
+                .info-titulo p{
+                    color:#d0d0d0;
+                }
+
+                .txt-end{
+                    padding: 10px;
+                    color: #d0d0d0;
+                    align-items: center;
+                    gap: 2px;
+                }
+                    .txt-end span {
+                        gap: 20px;
+                        align-items: center;
+                    }
+
+
             /*----CAIXA 2------*/ 
             /*----CAIXA 3------*/
 
