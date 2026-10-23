@@ -1,0 +1,88 @@
+<?php
+
+class produto
+{
+    private $id_produtos;
+    private $nome;
+    private $descricao;
+    private $preco;
+    private $quantidade;
+    private $categoria;
+    private $atualizar;
+
+//regExr expressos regulares estudar
+
+
+
+    public function getId_produtos()
+    {
+        return $this->id_produtos;
+    }
+
+    public function setId_produtos($id_produtos): void
+    {
+        $this->id_produtos = $id_produtos;
+    }
+
+    public function getNome()
+    {
+        return $this->nome;
+    }
+
+    public function setNome($nome): void
+    {
+        $this->nome = $nome;
+    }
+
+    public function getDescricao()
+    {
+        return $this->descricao;
+    }
+
+    public function setDescricao($descricao): void
+    {
+        $this->descricao = $descricao;
+    }
+
+    public function getPreco()
+    {
+        return $this->preco;
+    }
+
+    public function setPreco($preco): void
+    {
+        $this->preco = $preco;
+    }
+
+    public function getQuantidade()
+    {
+        return $this->quantidade;
+    }
+
+    public function setQuantidade($quantidade): void
+    {
+        $this->quantidade = $quantidade;
+    }
+
+    public function getCategoria()
+    {
+        return $this->categoria;
+    }
+
+    public function setCategoria($categoria): void
+    {
+        $this->categoria = $categoria;
+    }
+
+    public function getAtualizar()
+    {
+        return $this->atualizar;
+    }
+
+    public function setAtualizar($atualizar): void
+    {
+        $this->atualizar = $atualizar;
+    }
+}
+//set para colocar um Valor
+//get ler um valor
