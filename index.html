@@ -11,14 +11,14 @@
 <body>
 <!---------------------------- inicio do cabecalho -------------------------->
 
-    <header>   
+    <header class="cabecalho">   
          <div class="logo">   <img src="IMG/logo.png" alt="tentaculos e navalhas">   </div>
 
-         <nav>
+         <nav class="menu">
               
                 <a href="#inicio" class="ativo">Início</a>
-                <a href="#servicos" class="ativo">Serviços</a>
-                <a href="#" class="bar">Agendamento</a>
+                <a href="#cortes" class="bar">Serviços</a>
+                <a href="#localizacao" class="bar">contato</a>
         </nav>
 
     <!--------------------------versao mobile------------------------>
@@ -42,138 +42,305 @@
                 <h1> SEU ESTILO. <span> SUAS REGRAS.</span></h1>
                 <P> Cortes modernos, clássicos e personalizados. <br> Aqui, o seu estilo é levado a sério.</P>
                 <br>
-                <a href="#agendamento" class="btn-agendar"> AGENDAR HORÁRIO </a>
+                <a href="https://wa.me/5598991345678" class="btn-agendar"> AGENDAR HORÁRIO </a>
             </div>=
         </section>
     <!--------------------------fim HERO------------------------> 
 
     <!-------------------- icones de diferenciais --------------->      
-        <section class="diferenciais">
+        <section class="diferenciais" id="diferenciais">
 
-            <div class="diferencial">
-                <span class="icone">✂</span>
-                <h3>PROFISSIONAIS <br>QUALIFICADOS</h3>
-            </div>
+            <article class="diferencial">
+                <span class="icone" aria-hidden="true">✂</span>
+                <h2>PROFISSIONAIS QUALIFICADOS</h2>
+                <p>Experiência e precisão em cada corte.</p>
+            </article>
 
-            <div class="diferencial">
-                <span class="icone">♛</span>
-                <h3>AMBIENTE <br>CONFORTÁVEL</h3>
-            </div>
+            <article class="diferencial">
+                <span class="icone" aria-hidden="true">♛</span>
+                <h2>AMBIENTE CONFORTÁVEL</h2>
+                <p>Seu momento de cuidado e estilo.</p>
+            </article>
 
-            <div class="diferencial">
-                <span class="icone">✦</span>
-                <h3>HIGIENE E <br>SEGURANÇA</h3>
-            </div>
+            <article class="diferencial">
+                <span class="icone" aria-hidden="true">✦</span>
+                <h2>HIGIENE E SEGURANÇA</h2>
+                <p>Cuidado com você em cada detalhe.</p>
+            </article>
 
-            <div class="diferencial">
-                <span class="icone">⚓</span>
-                <h3>ESTILO EM <br>TODOS OS DETALHES</h3>
-            </div>
+            <article class="diferencial">
+                <span class="icone" aria-hidden="true">⚓</span>
+                <h2>ESTILO E PERSONALIDADE</h2>
+                <p>Cortes que combinam com você.</p>
+            </article>
 
         </section>
     <!-------------------- icones de diferenciais --------------->  
 
     
     <!--------------------    sessao de cortes     --------------->  
-        <section id="cortes" class="cortes">
-            <div class="cortes-titulo"> 
-                <div>                     
-                    <h2> NOSSOS CORTES</h2>
-                    <H3> ESCOLHA O SEU ESTILO</H3>
+         <section class="cortes" id="cortes">
+
+            <div class="cortes-titulo">
+                <div>
+                    <p class="secao-etiqueta">NOSSO TRABALHO</p>
+                    <h2>NOSSOS CORTES</h2>
+                    <h3>ESCOLHA O SEU ESTILO</h3>
                 </div>
-              
-                <a href="#agendamento" class="servicos"> VER TODOS OS SERVIÇOS <span>→</span></a>
-            </div> 
-              
-            <div class="cortes-conteudo"> 
 
+              <a href="#localizacao" class="servicos">
+                    TEMOS OS MELHORES PROFISSIONAIS 
+                   
+                </a>
+            </div>
+      
+
+            <div class="cortes-conteudo">
 
                 <article class="cortes-card">
-                     <!-- corte 1-->
-                    <img class= "cortes_card-img" src="../singlePage/IMG/estilo2.jpg" alt="corte1">
+                    <img
+                        class="cortes-card-img"
+                        src="IMG/barba.webp"
+                        alt="Corte de cabelo masculino"
+                        loading="lazy">
 
-                    <div class="card-conteudo">                       
-                            <h4>BARBA</h4>
+                    <div class="card-conteudo">
+                        <div>
+                            <h3>BARBA</h3>
                             <p>R$ 35,00</p>
+                        </div>
+                        <a href="#localizacao"
+                           class="card-seta"
+                           aria-label="Consultar serviço de barba">›</a>
                     </div>
+                </article>
 
-                </article>  
-                                        
+
                 <article class="cortes-card">
-                     <!-- corte 2-->
-                        <img class= "cortes_card-img" src="../singlePage/IMG/estilo3.jpg" alt="corte1">
+                    <img
+                        class="cortes-card-img"
+                        src="IMG/tesoura.webp"
+                        alt="Corte feito com tesoura"
+                        loading="lazy">
 
-                    <div class="card-conteudo">                       
-                            <h4>TESOURA</h4>
+                    <div class="card-conteudo">
+                        <div>
+                            <h3>TESOURA</h3>
                             <p>R$ 45,00</p>
+                        </div>
+                        <a href="#localizacao"
+                           class="card-seta"
+                           aria-label="Consultar corte com tesoura">›</a>
                     </div>
+                </article>
 
-                </article>  
 
                 <article class="cortes-card">
-                     <!-- corte 3-->
-                        <img class= "cortes_card-img" src="../singlePage/IMG/stlilo1.jpg" alt="corte1">
+                    <img
+                        class="cortes-card-img"
+                        src="IMG/corte-degrade.webp"
+                        alt="Degradê com desenho personalizado"
+                        loading="lazy">
 
-                    <div class="card-conteudo">                       
-                            <h4>DEGRADÊ COM DESENHO</h4>
+                    <div class="card-conteudo">
+                        <div>
+                            <h3>DEGRADÊ COM DESENHO</h3>
                             <p>R$ 50,00</p>
+                        </div>
+                        <a href="#localizacao"
+                           class="card-seta"
+                           aria-label="Consultar degradê com desenho">›</a>
                     </div>
+                </article>
 
-                </article>  
 
                 <article class="cortes-card">
-                     <!-- corte 4-->
-                        <img class= "cortes_card-img" src="../singlePage/IMG/estilo2.jpg" alt="corte1">
+                    <img
+                        class="cortes-card-img"
+                        src="IMG/corte-infantil.jpg"
+                        alt="Corte de cabelo infantil"
+                        loading="lazy">
 
-                    <div class="card-conteudo">                       
-                            <h4>INFANTIL</h4>
+                    <div class="card-conteudo">
+                        <div>
+                            <h3>INFANTIL</h3>
                             <p>R$ 30,00</p>
+                        </div>
+                        <a href="#localizacao"
+                           class="card-seta"
+                           aria-label="Consultar corte infantil">›</a>
                     </div>
+                </article>
 
-                </article> 
 
                 <article class="cortes-card">
-                     <!-- corte 5-->
-                        <img class= "cortes_card-img" src="../singlePage/IMG/estilo2.jpg" alt="corte1">
+                    <img
+                        class="cortes-card-img"
+                        src="IMG/estilo2.jpg"
+                        alt="Corte masculino personalizado"
+                        loading="lazy">
 
-                    <div class="card-conteudo">                       
-                            <h4>INFANTIL</h4>
-                            <p>R$ 30,00</p>
+                    <div class="card-conteudo">
+                        <div>
+                            <h3>CORTE MASCULINO</h3>
+                            <p>R$ 40,00</p>
+                        </div>
+                        <a href="#localizacao"
+                           class="card-seta"
+                           aria-label="Consultar corte masculino">›</a>
                     </div>
+                </article>
 
-                </article> 
-              
+            </div>
+
         </section>
     <!--------------------     fim de cortes        --------------->                
 
 
 
     <!--------------------     inicio localizacao       --------------->   
+        <section class="localizacao" id="localizacao">
 
-        <section id="localizacao" class="localizacao">
-    
+            <!-- INFORMAÇÕES -->
+            <div class="localizacao-texto">
+
+                <div class="localizacao-titulo">
+                    <span class="icone-local titulo-icone"
+                          aria-hidden="true">⌖</span>
+
+                    <div>
+                        <p class="secao-etiqueta">ESTAMOS POR AQUI</p>
+                        <h2>ENCONTRE NOSSO<br>TERRITÓRIO</h2>
+                        <p>Estamos prontos para te receber!</p>
+                    </div>
+                </div>
+
+
+                <div class="detalhes-localizacao">
+                    <span class="icone-local" aria-hidden="true">📍</span>
+                    <p>
+                        <strong>Nosso endereço</strong>
+                        Avenida dos Holandeses, 1000, Calhau
+                        <br>São Luís - MA
+                    </p>
+                </div>
+
+
+                <div class="detalhes-localizacao">
+                    <span class="icone-local" aria-hidden="true">◷</span>
+                    <p>
+                        <strong>Horário de funcionamento</strong>
+                        Segunda a sábado, das 9h às 20h
+                    </p>
+                </div>
+
+
+                <div class="detalhes-localizacao">
+                    <span class="icone-local" aria-hidden="true">☏</span>
+                    <p>
+                        <strong>Entre em contato</strong>
+                        (98) 99134-5678
+                        <br>Fale conosco pelo WhatsApp
+                    </p>
+                </div>
+
+
+                <div class="localizacao-botoes">
+
+                    <a
+                        href="https://www.google.com/maps/dir/?api=1&destination=Av.%20dos%20Holandeses%2C%201000%2C%20Calhau%2C%20S%C3%A3o%20Lu%C3%ADs%20-%20MA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn-mapa">
+                        ↗ COMO CHEGAR
+                    </a>
+
+                    <a
+                        href="https://wa.me/5598991345678"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn-whatsapp">
+                        ☏ CHAMAR NO WHATSAPP
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- MAPA DO GOOGLE -->
+            <div class="localizacao-mapa">
+                <iframe
+                    title="Mapa da localização da Tentáculos e Navalhas"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.0465595892997!2d-44.26056442416374!3d-2.4915370974870865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f68d926e5c6bcd%3A0x4a7966e46d6c78d1!2sAv.%20dos%20Holandeses%2C%201000%20-%20Calhau%2C%20S%C3%A3o%20Lu%C3%ADs%20-%20MA%2C%2065071-380!5e0!3m2!1spt-BR!2sbr!4v1791411402357!5m2!1spt-BR!2sbr"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+
+            <!-- FRASE DA MARCA -->
+            <div class="localizacao-frase">
+                <p>
+                    MAIS QUE<br>
+                    UMA BARBEARIA,<br>
+                    <span>É UM ESTILO<br>DE VIDA.</span>
+                </p>
+
+                <div class="frase-linha"></div>
+                <span class="frase-decoracao" aria-hidden="true">〰 ✦ 〰</span>
+            </div>
 
         </section>
     
     <!--------------------     fim   localizacao        --------------->                
             
-
-
-
-
-
-
-
-
-
-
- 
-     
+    
 
     </main>
 
 <!------------------------- FINAL PARTE PRINCIPAL -------------------------->
 
 </body>
+
+    <footer class="rodape">
+
+        <a href="#inicio" class="rodape-logo">
+            <img src="IMG/logo.png"
+                 alt="Tentáculos e Navalhas Barbearia">
+        </a>
+
+        <nav class="rodape-menu" aria-label="Navegação do rodapé">
+            <a href="#inicio">Início</a>
+            <a href="#diferenciais">Sobre nós</a>
+            <a href="#cortes">Serviços</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#localizacao">Contato</a>
+        </nav>
+
+        <div class="rodape-redes">
+            <a href="https://www.instagram.com/"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Instagram">◎</a>
+
+            <a href="https://wa.me/5598991345678"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="WhatsApp">☏</a>
+
+            <a href="https://www.facebook.com/"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Facebook">f</a>
+        </div>
+
+        <div class="rodape-copy">
+            <p>&copy; <span id="ano">2026</span> Tentáculos e Navalhas.</p>
+            <p>Todos os direitos reservados.</p>
+        </div>
+
+    </footer>
 
 </html>
